@@ -1,0 +1,19 @@
+{
+  "readOnly": true,
+  "executionTimeoutMs": 30000,
+  "servers": [
+    {
+      "id": "excel_python",
+      "name": "Existing Python Excel MCP",
+      "enabled": true,
+      "transport": "stdio",
+      "command": "uvx",
+      "args": [
+        "excel-mcp-server",
+        "stdio"
+      ],
+      "env": {},
+      "toolDenylist": []
+    }
+  ]
+}

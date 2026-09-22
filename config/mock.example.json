@@ -1,0 +1,16 @@
+{
+  "readOnly": true,
+  "executionTimeoutMs": 10000,
+  "servers": [
+    {
+      "id": "demo",
+      "name": "Mock Excel MCP (test only)",
+      "enabled": true,
+      "transport": "stdio",
+      "command": "node",
+      "args": [
+        "examples/mock-excel-mcp.mjs"
+      ]
+    }
+  ]
+}
